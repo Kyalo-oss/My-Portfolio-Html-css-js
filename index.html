@@ -10,19 +10,58 @@
 </head>
 <body>
     <script src= "script.js"></script>
+
+
     <nav id= "desktop-nav"> 
         <div class="logo"> Steve Kyalo</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experince</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    
+    <nav id="hamburger-nav">
+      <div class="logo">Steve Kyalo</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+       </div>
+      </nav>
+
+      <section  id="'section">
+        <div class="sectiom pic-container"> 
+            <img src="/Assests/Profile.jpg" alt="Steve profile picture"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hello, I'm</p>
+            <h1 class="title">Steve Kyalo</h1>
+            <p class="section__text__p2">Data Scientist and Front-end Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assests/CURRICULUM VITAE Steve Kyalo.pdf')">Download CV</button>
+            </div>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="'.assests/linkedin.png" 
+                alt="My LinkedIn Profile" class="icon" onclick="location.href='http://www.linkedin.com/in/steve-kyalo-3ab00a1b4'"/>
+            </div>
+        </div>
+      </section>
+
 </body>
 </html>
  

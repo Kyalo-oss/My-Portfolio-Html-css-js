@@ -7,8 +7,15 @@
       "default",
       {
         "ignore": [
-          "text-underline-offset"
+          "text-underline-offset",
+          "width: fit-content"
         ]
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
       }
     ]
   }
