@@ -176,8 +176,8 @@ section {
    
 }
 
-img {
-  border-radius: 500px;
+#img-1 {
+  border-radius: 200px;
   height: 50vh;
 }
 
@@ -277,3 +277,69 @@ img {
   gap: 1rem;
 }
 
+/*About*/
+
+#img-2 {
+  
+  height: 60vh;
+  
+}
+
+#about {
+  position: relative;
+
+}
+
+.about-containers {
+  gap:2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content:center;
+  flex-direction: column;
+  /*width: 100vh;*/
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border: radius 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding:1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgba(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic_container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+
+.experience-details-container-2 {
+  gap: 4rem;
+  padding-top: 30px;
+}
