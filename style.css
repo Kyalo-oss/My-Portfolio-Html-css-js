@@ -178,7 +178,6 @@ section {
 
 #img-1 {
   border-radius: 200px;
-  height: 50vh;
 }
 
 .section__pic-container {
@@ -280,9 +279,9 @@ section {
 /*About*/
 
 #img-2 {
-  
-  height: 60vh;
-  
+  border-radius: 30px;
+  height: 40vh;
+ 
 }
 
 #about {
@@ -422,7 +421,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53,53,53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: (250,250,250);
+  background: rgb(250,250,250);
   margin: 2rem auto;
   padding: 0.5rem;
 
