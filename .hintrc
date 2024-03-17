@@ -19,5 +19,11 @@
         "listitem": "off"
       }
     ]
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 118",
+    "not firefox <= 118"
+  ]
 }
